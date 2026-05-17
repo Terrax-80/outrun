@@ -4,7 +4,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-    puritan:
+    oxidise_seriously:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -15,12 +15,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: puritan
+        - name: oxidise_seriously
           run: |
             npm install
-            timeout 307m node rust.js
+            timeout 314m node rust.js
   
-    instructive_bell:
+    where_eek:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -31,220 +31,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: instructive_bell
-          run: |
-            npm install
-            timeout 300m node rust.js
-  
-    yippee:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: yippee
-          run: |
-            npm install
-            timeout 342m node rust.js
-  
-    gadzooks:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: gadzooks
-          run: |
-            npm install
-            timeout 350m node rust.js
-  
-    radiant_netsuke_yawn:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: radiant_netsuke_yawn
-          run: |
-            npm install
-            timeout 346m node rust.js
-  
-    promptly_victoriously_saturate:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: promptly_victoriously_saturate
-          run: |
-            npm install
-            timeout 303m node rust.js
-  
-    ah_promptly_once:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: ah_promptly_once
-          run: |
-            npm install
-            timeout 350m node rust.js
-  
-    brr_under_in:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: brr_under_in
-          run: |
-            npm install
-            timeout 325m node rust.js
-  
-    surge_kookily:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: surge_kookily
-          run: |
-            npm install
-            timeout 347m node rust.js
-  
-    intently_out_depend:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: intently_out_depend
-          run: |
-            npm install
-            timeout 332m node rust.js
-  
-    glass:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: glass
-          run: |
-            npm install
-            timeout 304m node rust.js
-  
-    cautiously_unabashedly:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: cautiously_unabashedly
-          run: |
-            npm install
-            timeout 302m node rust.js
-  
-    bran:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: bran
-          run: |
-            npm install
-            timeout 330m node rust.js
-  
-    grizzled_grass:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: grizzled_grass
-          run: |
-            npm install
-            timeout 334m node rust.js
-  
-    peony_bogus_opposite:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: peony_bogus_opposite
+        - name: where_eek
           run: |
             npm install
             timeout 316m node rust.js
   
-    low_scowl:
+    yawningly_instructive_but:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -255,8 +47,248 @@ jobs:
           with:
             node-version: 20
             
-        - name: low_scowl
+        - name: yawningly_instructive_but
           run: |
             npm install
-            timeout 343m node rust.js
+            timeout 313m node rust.js
+  
+    verbally_pace_general:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: verbally_pace_general
+          run: |
+            npm install
+            timeout 334m node rust.js
+  
+    analyse_upliftingly_regarding:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: analyse_upliftingly_regarding
+          run: |
+            npm install
+            timeout 341m node rust.js
+  
+    handy_proselytise:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: handy_proselytise
+          run: |
+            npm install
+            timeout 300m node rust.js
+  
+    bare_but:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: bare_but
+          run: |
+            npm install
+            timeout 321m node rust.js
+  
+    decriminalize_jut_department:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: decriminalize_jut_department
+          run: |
+            npm install
+            timeout 315m node rust.js
+  
+    wilderness_fraudster_fairly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: wilderness_fraudster_fairly
+          run: |
+            npm install
+            timeout 320m node rust.js
+  
+    yieldingly_ingratiate:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: yieldingly_ingratiate
+          run: |
+            npm install
+            timeout 321m node rust.js
+  
+    almost_nearly_hm:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: almost_nearly_hm
+          run: |
+            npm install
+            timeout 347m node rust.js
+  
+    pinstripe_instead:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: pinstripe_instead
+          run: |
+            npm install
+            timeout 339m node rust.js
+  
+    belabor_gleefully_sheathe:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: belabor_gleefully_sheathe
+          run: |
+            npm install
+            timeout 331m node rust.js
+  
+    partial:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: partial
+          run: |
+            npm install
+            timeout 324m node rust.js
+  
+    unfortunately_until_lest:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: unfortunately_until_lest
+          run: |
+            npm install
+            timeout 322m node rust.js
+  
+    flight_generously_definite:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: flight_generously_definite
+          run: |
+            npm install
+            timeout 303m node rust.js
+  
+    both_rapidly_merry:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: both_rapidly_merry
+          run: |
+            npm install
+            timeout 302m node rust.js
+  
+    silk_muffled:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: silk_muffled
+          run: |
+            npm install
+            timeout 348m node rust.js
   
